@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Analyse URL</title>
+</head>
+<body>
+<h1>Enter URL to Analyse</h1>
+<form action="#" th:action="@{/analyse}" method="post">
+    <input type="text" name="url" placeholder="https://example.com" required/>
+    <button type="submit">Analyse</button>
+</form>
+</body>
+</html>

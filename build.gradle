@@ -1,7 +1,8 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.5.5'
-    id 'io.spring.dependency-management' version '1.1.7'
+    id 'application'
+    id 'org.springframework.boot' version '3.3.3'
+    id 'io.spring.dependency-management' version '1.1.6'
 }
 
 group = 'com.example'
@@ -20,6 +21,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -27,9 +30,13 @@ dependencies {
     implementation 'org.jsoup:jsoup:1.16.1'
     implementation 'org.apache.opennlp:opennlp-tools:2.2.0'
     implementation 'com.optimaize.languagedetector:language-detector:0.6'
+
+
     runtimeOnly 'mysql:mysql-connector-java:8.0.33'
     }
-
+application {
+    mainClass = 'com.example.webpagelogs.WebPageLogsApplication'
+}
 tasks.named('test') {
     useJUnitPlatform()
 }

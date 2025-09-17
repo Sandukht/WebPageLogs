@@ -1,0 +1,32 @@
+en	This is a simple English sentence.
+en	The weather is nice today.
+ru	Это простое русское предложение.
+ru	Погода сегодня хорошая.
+fr	Ceci est une phrase française.
+fr	Le ciel est bleu.
+es	Hola, ¿cómo estás?
+es	Este es un texto en español.
+de	Das ist ein einfacher deutscher Satz.
+de	Heute ist das Wetter schön.
+it	Questa è una semplice frase italiana.
+it	Oggi il tempo è bello.
+pt	Esta é uma frase simples em português.
+pt	Hoje o tempo está bom.
+zh	这是一句简单的中文。
+zh	今天天气很好。
+ja	これは簡単な日本語の文です。
+ja	今日は天気がいいです。
+ko	이것은 간단한 한국어 문장입니다.
+ko	오늘 날씨가 좋습니다.
+ar	هذه جملة عربية بسيطة.
+ar	الطقس جميل اليوم.
+hi	यह एक सरल हिंदी वाक्य है।
+hi	आज मौसम अच्छा है।
+tr	Bu basit bir Türkçe cümledir.
+tr	Bugün hava güzel.
+nl	Dit is een eenvoudige Nederlandse zin.
+nl	Het weer is vandaag mooi.
+el	Αυτή είναι μια απλή ελληνική πρόταση.
+el	Ο καιρός είναι καλός σήμερα.
+hy  Բարև սա հայերենն է։ Բարի գալուստ։
+hy  Երևանն անչափ գեղեցիկ քաղաք է։

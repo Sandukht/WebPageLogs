@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Analysis Result</title>
+</head>
+<body>
+<h1>Analysis Result for <span th:text="${url}"></span></h1>
+
+<table border="1">
+    <tr>
+        <th>Word</th>
+        <th>Count</th>
+        <th>Language</th>
+    </tr>
+    <tr th:each="row : ${topWords}">
+        <td th:text="${row.word}"></td>
+        <td th:text="${row.count}"></td>
+        <td th:text="${row.lang}"></td>
+    </tr>
+</table>
+
+<a th:href="@{/analyse}">Analyse another URL</a>
+</body>
+</html>
